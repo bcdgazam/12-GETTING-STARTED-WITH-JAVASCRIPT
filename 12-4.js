@@ -2,3 +2,12 @@
 
 var seenAfter = 21;
 console.log(typeof seenAfter);
+
+var name = "Jogir Uddin";
+console.log(name);
+console.log(typeof name);
+
+
+var isHot = false;
+var isRich = true;
+console.log(isHot);
