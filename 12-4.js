@@ -1,4 +1,4 @@
-//12-4 Variable type, Numeric, String, Boolean
+//12-4 Variable type, String, Number, Boolean
 
 //string
 var name = "Jogir Uddin";
