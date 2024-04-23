@@ -17,18 +17,3 @@
 
 //Exercise
 
-let stCase = 'Hello bangladesh';
-console.log(stCase.toUpperCase());
-console.log(stCase.toLocaleLowerCase());
-console.log(stCase.indexOf('b'))
-console.log(stCase.split('s'));
-
-    // 12-7 Integer float parseInt parseFloat type conversion
-let num1 = 20;
-let num2 = '30.30';
-
-console.log(num1 + num2);
-
-num1 = '' +num1;
-num2 = parseFloat(num2);
-console.log(num1 + num2);
