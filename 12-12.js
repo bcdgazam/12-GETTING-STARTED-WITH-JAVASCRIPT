@@ -16,9 +16,10 @@
 
 //Exercise
 
-let speech = 'Hi, I\'m pagla'
-console.log(speech.toUpperCase());
-console.log(speech.toLowerCase());
-console.log(speech.toLocaleLowerCase())
-console.log(speech.indexOf('I'));
-console.log(speech.split('m'))
+let n1 = 0.1;
+let n2 = 0.2;
+let total = n1 + n2;
+total = total.toFixed(3);
+total = parseFloat(total);
+console.log(total);
+
