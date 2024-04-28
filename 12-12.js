@@ -16,25 +16,9 @@
 
 //Exercise
 
-let speech = 'Hello bangali you are the best programmers in the world';
+let speech = 'Hi, I\'m pagla'
 console.log(speech.toUpperCase());
-console.log(speech.toLocaleLowerCase());
-console.log(speech.indexOf('world'));
-console.log(speech.split('the'));
-
-let num1 = 20;
-let num2 = '20.30';
-console.log(num1 + num2);
-
-// num2 = +num2;
-console.log(num1 + num2);
-
-// num2 = parseFloat(num2);
-console.log(num1 + num2);
-
-// num2 = parseInt(num2);
-console.log(num1 + num2);
-
-// num1 = ''+num1;
-num2 = parseFloat(num2);
-console.log(num1 + num2);
+console.log(speech.toLowerCase());
+console.log(speech.toLocaleLowerCase())
+console.log(speech.indexOf('I'));
+console.log(speech.split('m'))
