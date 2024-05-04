@@ -38,3 +38,10 @@ else if(getJob == true){
 else{
     console.log('Dhoirjo dhora mohot gun, Thanks!')
 }
+
+
+let time = new Date();
+console.log(time);
+
+let time2 = new Date('1971-12-16');
+console.log(time2);

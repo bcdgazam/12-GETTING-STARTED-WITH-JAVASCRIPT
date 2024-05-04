@@ -1,5 +1,12 @@
 //12-12 JavaScript Date timezone and Module Summary
 
+let time = new Date();
+console.log(time);
+
+let time2 = new Date('1971-12-16');
+console.log(time2);
+
+
 /*
     12-2 Run JavaScript in browser, VSCode, and codepen
     12-3 What is variable, declare a variable, see output
