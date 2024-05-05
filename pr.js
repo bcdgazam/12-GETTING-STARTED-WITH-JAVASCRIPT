@@ -14,11 +14,14 @@
 // num2 = Math.random(num2)
 // console.log(num1 + num2);
 
-let bananaPrice = 24;
+// let bananaPrice = 24;
 
-if(bananaPrice < 22){
-    console.log('Banana Khabo')
-}
-else{
-    console.log('Kaje mon de, Taka nai, Khaoyao nai.')
-}
+// if(bananaPrice < 22){
+//     console.log('Banana Khabo')
+// }
+// else{
+//     console.log('Kaje mon de, Taka nai, Khaoyao nai.')
+// }
+
+let newDate = new Date();
+console.log(newDate);
