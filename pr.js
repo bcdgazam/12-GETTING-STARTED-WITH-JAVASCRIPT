@@ -14,4 +14,9 @@
 // console.log(result2);
 
 let num1 = -90;
-console.log(Math.abs(num1));
+num1 = Math.abs(num1);
+let num2 = '30.70';
+num2 = parseFloat(num2);
+let result = num1 + num2;
+result = Math.random(result) * 100;
+console.log(result);
