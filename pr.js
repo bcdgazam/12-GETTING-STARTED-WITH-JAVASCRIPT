@@ -23,11 +23,30 @@
 // newResult = Math.abs(newResult);
 // console.log(newResult);
 
-let bananaPrice = 22;
+// let bananaPrice = 22;
 
-if(bananaPrice < 20){
-    console.log('I will eat the banana')
-}
-else{
-    console.log('Sorry I have to eat air');
-}
+// if(bananaPrice < 20){
+//     console.log('I will eat the banana')
+// }
+// else{
+//     console.log('Sorry I have to eat air');
+// }
+
+// let getJob = false;
+// let saveCapital = 5000;
+
+// if(getJob == true && saveCapital > 50000){
+//     console.log('cholo meye dekhi');
+// }
+// else if (getJob == true){
+//     console.log('Try to save money');
+// }
+// else{
+//     console.log('Sorry tomar kple biya nai');
+// }
+
+let time = new Date();
+console.log(time);
+
+let time2 = new Date('1971-12-16');
+console.log(time2);
