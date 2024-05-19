@@ -1,52 +1,51 @@
-// let speech = 'I love bangladesh';
-// console.log(speech.toUpperCase());
-// console.log(speech.toLocaleLowerCase());
-// console.log(speech.split('love'));
-// console.log(speech.indexOf('e'));
-
-// let num1 = 23;
-// let num2 = '20.34';
-
-// let result = parseFloat(num2);
-// console.log(result);
-
-// let result2 = num1.toString();
-// console.log(result2);
+// let speech = 'I love my country';
+// let toUppercase = speech.split('my');
+// console.log(toUppercase)
 
 // let num1 = -90;
+// let num2 = '30.89';
 // num1 = Math.abs(num1);
-// let num2 = '30.70';
 // num2 = parseFloat(num2);
-// let result = num1 + num2;
-// result = Math.random(result) * 100;
-// let newResult = result.toFixed(2);
-// newResult = Math.abs(newResult);
-// console.log(newResult);
+// let sum = (num1 + num2);
 
-// let bananaPrice = 22;
+// let result = Math.random(sum) * 10;
+// let fixedNumber = result.toFixed();
+// let lastResult = Math.abs(fixedNumber);
+// console.log(lastResult);
 
-// if(bananaPrice < 20){
-//     console.log('I will eat the banana')
-// }
-// else{
-//     console.log('Sorry I have to eat air');
-// }
 
-// let getJob = false;
-// let saveCapital = 5000;
+// let num1 = 10;
+// let num2 = 20;
 
-// if(getJob == true && saveCapital > 50000){
-//     console.log('cholo meye dekhi');
-// }
-// else if (getJob == true){
-//     console.log('Try to save money');
-// }
-// else{
-//     console.log('Sorry tomar kple biya nai');
-// }
+// let sum = (num1 + num2);
+// let randNumber = Math.random() * 6;
+// let fixedNumber  = randNumber.toFixed();
+// let finalResult = Math.abs(fixedNumber);
+// console.log(finalResult);
 
-let time = new Date();
-console.log(time);
+// let randNumber = Math.random() * 6; // Corrected line
+// let fixedNumber = randNumber.toFixed();
+// let finalResult = Math.abs(fixedNumber);
+// console.log(finalResult);
 
-let time2 = new Date('1971-12-16');
-console.log(time2);
+
+// let randNumber = Math.floor(Math.random() * 6) + 1; 
+// console.log(randNumber);
+
+// let randomNumber = Math.random() * 6 + 1;
+// let result = Math.floor(randomNumber);
+// console.log(result);
+
+
+// let lodoGame = Math.random() * 6 + 1;
+// let lodoResult = Math.floor(lodoGame);
+// console.log(lodoResult);
+
+let bananaPrice = 24;
+
+if(bananaPrice < 22){
+    console.log('I will eat the banana');
+}
+else{
+    console.log("I will not eat it.");
+}
